@@ -1,4 +1,4 @@
-### After runnning this backend applicaton (i.e) vitasoft_part2-b- , need to start frontend form application (i.e) vitasoft_part1 repository
+After runnning this backend applicaton (i.e) vitasoft_part2-b- , need to start frontend form application (i.e) vitasoft_part1 repository
 ## `npm start`
  Runs the backend server on port 3001
  which connects with the MongoDB cluster
@@ -22,6 +22,8 @@ you can also change MongoDB cluster in .env file which is in  vitasoft_part2-b- 
 
 in my case it contains
 ###DATABASE_URL=mongodb+srv://admin1:admin@cluster0.imzz1.mongodb.net/test
+
+The entered data will be present in datas table in test cluster
  
 ### Im using REST client which is a vs code extension instead of postman here.
 route.rest constains all the request
